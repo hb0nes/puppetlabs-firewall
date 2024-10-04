@@ -594,13 +594,13 @@ Puppet::ResourceApi.register_type(
       DESC
     },
     ctmask: {
-      type: 'Optional[String]'
+      type: 'Optional[String]',
       DESC: <<-DESC
       ctmask
       DESC
     },
     nfmask: {
-      type: 'Optional[String]'
+      type: 'Optional[String]',
       DESC: <<-DESC
       nfmask
       DESC
