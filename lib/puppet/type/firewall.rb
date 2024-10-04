@@ -1287,7 +1287,7 @@ Puppet::ResourceApi.register_type(
       desc: <<-DESC
       Whether or not to restore mark.
       DESC
-    }
+    },
     set_mark: {
       type: 'Optional[Pattern[/^[a-fA-F0-9x]+(?:\/[a-fA-F0-9x]+)?$/]]',
       desc: <<-DESC
